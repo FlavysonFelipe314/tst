@@ -11,3 +11,5 @@ RUN a2enmod rewrite
 
 # Define o diretório raiz do Apache
 WORKDIR /var/www/html
+
+COPY . /var/www/html
