@@ -11,6 +11,3 @@ RUN a2enmod rewrite
 
 # Define o diretório raiz do Apache
 WORKDIR /var/www/html
-
-# Copia os arquivos do projeto para o container
-COPY . /var/www/html
